@@ -51,11 +51,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: '/',
+        href: 'https://github.com/titandefi',
       },
       {
         label: 'Docs',
-        href: '/soon',
+        href: 'https://titandefi.gitbook.io/titan-finance/',
       },
       {
         label: 'Blog',

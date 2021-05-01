@@ -60,6 +60,8 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
+        <Heading as="h1" size="md" mb="24px" color="primary">Fair Launch: <a href="https://countingdownto.com/?c=3584180">4th May 2021 1AM GMT</a></Heading>
+        <Heading as="h1" size="md" mb="24px" color="primary">Farming Starts: <a href="https://bscscan.com/block/countdown/7133000">Block 7133000</a></Heading>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'Titan Finance')}
         </Heading>
