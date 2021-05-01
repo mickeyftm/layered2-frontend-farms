@@ -59,7 +59,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Blog',
-        href: '/soon'
+        href: 'https://titandefi.medium.com/rise-of-the-titan-5057e7cc3a3d'
       },
     ],
   },
