@@ -58,7 +58,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
           isTokenOnly ?
             `https://exchange.aotfinance.com/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
             :
-            `https://exchange.aotfinance.com/#/add/${liquidityUrlPathParts}`
+            `https://exchange.pancakeswap.finance/#/add/${liquidityUrlPathParts}`
         }>
           {lpLabel}
         </StyledLinkExternal>
