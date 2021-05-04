@@ -8,7 +8,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'AOT-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbECDD23A16DfA5573dF54d98F7CaAE03019',
+      56: '0x2628f71dd1928a4b39bd5fd4aea37905891229fc',
     },
     tokenSymbol: 'AOT',
     tokenAddresses: {
@@ -24,7 +24,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'AOT-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xd1B59D11316E87C3a0A069E80F590BA35cD8D8D3',
+      56: '0x55fd2d62430186c7b9022843b58e197a4999b11e',
     },
     tokenSymbol: 'AOT',
     tokenAddresses: {
@@ -153,7 +153,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'AOT',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbECDD23A16DfA5573dF54d98F7CaAE03019', // EGG-BUSD LP
+      56: '0x2628f71dd1928a4b39bd5fd4aea37905891229fc', // EGG-BUSD LP
     },
     tokenSymbol: 'AOT',
     tokenAddresses: {
@@ -170,7 +170,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x683d378d3454c504b178d27a0bd1444943a03bc1', // EGG-BUSD LP (BUSD-BUSD will ignore)
+      56: '0x2628f71dd1928a4b39bd5fd4aea37905891229fc', // EGG-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
