@@ -16,7 +16,7 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Liquidity',
-        href: 'https://exchange.aotfinance.com/#/pool',
+        href: 'https://exchange.pancakeswap.finance/#/pool',
       },
     ],
   },
