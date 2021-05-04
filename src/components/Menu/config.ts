@@ -12,7 +12,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.aotfinance.com/#/swap',
+        href: 'https://exchange.pancakeswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
