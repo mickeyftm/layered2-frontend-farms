@@ -55,7 +55,7 @@ const App: React.FC = () => {
             <Route path="/soon">
               <Page>
                 <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-                  Please hold on, we're working on it, it'll come soon-dattebayo!
+                  Please hold on, we are working on it, it will come soon-dattebayo!
                 </Heading>
               </Page>
             </Route>
