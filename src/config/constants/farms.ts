@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'AOT-BUSD LP',
+    lpSymbol: 'NAR-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x2628f71dd1928a4b39bd5fd4aea37905891229fc',
+      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
     },
-    tokenSymbol: 'AOT',
+    tokenSymbol: 'NAR',
     tokenAddresses: {
       97: '',
-      56: '0xEa5a3BFe81eEAf53ee202D222F3bcd8812eb86f5',
+      56: '0x1711fbed46161B7ad26f69CBA02ce5ABaDfC2e8a',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,15 +21,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'AOT-BNB LP',
+    lpSymbol: 'NAR-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x55fd2d62430186c7b9022843b58e197a4999b11e',
+      56: '0xd1b59d11316e87c3a0a069e80f590ba35cd8d8d3',
     },
-    tokenSymbol: 'AOT',
+    tokenSymbol: 'NAR',
     tokenAddresses: {
       97: '',
-      56: '0xEa5a3BFe81eEAf53ee202D222F3bcd8812eb86f5',
+      56: '0x1711fbed46161B7ad26f69CBA02ce5ABaDfC2e8a',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -150,15 +150,15 @@ const farms: FarmConfig[] = [
     pid: 9,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'AOT',
+    lpSymbol: 'NAR',
     lpAddresses: {
       97: '',
-      56: '0x2628f71dd1928a4b39bd5fd4aea37905891229fc', // EGG-BUSD LP
+      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // EGG-BUSD LP
     },
-    tokenSymbol: 'AOT',
+    tokenSymbol: 'NAR',
     tokenAddresses: {
       97: '',
-      56: '0xEa5a3BFe81eEAf53ee202D222F3bcd8812eb86f5',
+      56: '0x1711fbed46161B7ad26f69CBA02ce5ABaDfC2e8a',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -170,7 +170,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x2628f71dd1928a4b39bd5fd4aea37905891229fc', // EGG-BUSD LP (BUSD-BUSD will ignore)
+      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // EGG-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {

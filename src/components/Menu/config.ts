@@ -21,14 +21,14 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Wall Rose',
+    label: 'Ninjutsu',
     icon: 'FarmIcon',
-    href: '/rose',
+    href: '/ninjutsu',
   },
   {
-    label: 'Wall Maria',
+    label: 'Taijutsu',
     icon: 'PoolIcon',
-    href: '/maria',
+    href: '/taijutsu',
   },
   // {
   //   label: 'Pools',
@@ -51,15 +51,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/titandefi',
+        href: '/soon',
       },
       {
         label: 'Docs',
-        href: 'https://titandefi.gitbook.io/titan-finance/',
+        href: '/soon',
       },
       {
         label: 'Blog',
-        href: 'https://titandefi.medium.com/rise-of-the-titan-5057e7cc3a3d'
+        href: '/soon'
       },
     ],
   },

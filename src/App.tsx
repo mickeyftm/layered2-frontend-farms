@@ -46,16 +46,16 @@ const App: React.FC = () => {
             <Route path="/" exact>
               <Home />
             </Route>
-            <Route path="/rose">
+            <Route path="/ninjutsu">
               <Farms />
             </Route>
-            <Route path="/maria">
+            <Route path="/taijutsu">
               <Farms tokenMode />
             </Route>
             <Route path="/soon">
               <Page>
                 <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-                  Coming soon, we are currently working on it!
+                  Please hold on, we're working on it, it'll come soon-dattebayo!
                 </Heading>
               </Page>
             </Route>

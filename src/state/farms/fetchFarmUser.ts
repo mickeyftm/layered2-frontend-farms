@@ -65,7 +65,7 @@ export const fetchFarmUserEarnings = async (account: string) => {
   const calls = farmsConfig.map((farm) => {
     return {
       address: masterChefAdress,
-      name: 'pendingTitan',
+      name: 'pendingNaruto',
       params: [farm.pid, account],
     }
   })
