@@ -60,7 +60,8 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="md" mb="24px" color="primary">Farming Starts: <a href="https://bscscan.com/block/countdown/7133000">Block 7133000</a></Heading>
+        <Heading as="h1" size="sm" mb="24px" color="primary">The Chunin Exams (Fair Launch) starts at <a href="https://countingdownto.com/?c=3591857">10 May 2021 4AM GMT</a>, are you signing up-dattebayo?</Heading>
+        <Heading as="h1" size="sm" mb="24px" color="primary">Naruto is going to become Hokage (Farming starts) at <a href="https://bscscan.com/block/countdown/7300000">Block 7300000</a>, come along-dattebayo!</Heading>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'Titan Finance')}
         </Heading>
