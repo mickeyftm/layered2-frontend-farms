@@ -21,14 +21,14 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Ninjutsu (v2)',
+    label: 'FireRed (v2)',
     icon: 'FarmIcon',
-    href: '/ninjutsu',
+    href: '/firered',
   },
   {
-    label: 'Taijutsu',
+    label: 'LeafGreen',
     icon: 'PoolIcon',
-    href: '/taijutsu',
+    href: '/leafgreen',
   },
   // {
   //   label: 'Pools',

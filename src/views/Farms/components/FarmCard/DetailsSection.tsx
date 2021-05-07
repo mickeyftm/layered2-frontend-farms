@@ -52,6 +52,17 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
 
   return (
     <Wrapper>
+      <Text>
+        Mew will be updating this after the Fair Launch!
+      </Text>
+    </Wrapper>
+  )
+}
+
+export default DetailsSection
+
+/*
+
       <Flex justifyContent="space-between">
         <Text>{TranslateString(316, 'Stake')}:</Text>
         <StyledLinkExternal href={
@@ -74,8 +85,5 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
           {TranslateString(356, 'View on BscScan')}
         </Link>
       </Flex>
-    </Wrapper>
-  )
-}
 
-export default DetailsSection
+      */

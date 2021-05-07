@@ -46,16 +46,16 @@ const App: React.FC = () => {
             <Route path="/" exact>
               <Home />
             </Route>
-            <Route path="/ninjutsu">
+            <Route path="/firered">
               <Farms />
             </Route>
-            <Route path="/taijutsu">
+            <Route path="/leafgreen">
               <Farms tokenMode />
             </Route>
             <Route path="/soon">
               <Page>
                 <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-                  Please hold on, we are working on it, it will come soon-dattebayo!
+                  Coming soon, straight to your Pokedex!
                 </Heading>
               </Page>
             </Route>

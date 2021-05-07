@@ -60,12 +60,12 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="sm" mb="24px" color="primary">The Chunin Exams (Fair Launch) starts at <a href="https://countingdownto.com/?c=3591857">10 May 2021 4AM GMT</a>, are you signing up-dattebayo?</Heading>
-        <Heading as="h1" size="sm" mb="24px" color="primary">Naruto is going to become Hokage (Farming starts) at <a href="https://bscscan.com/block/countdown/7300000">Block 7300000</a>, come along-dattebayo!</Heading>
+        <Heading as="h1" size="sm" mb="24px" color="primary">Fair Launch: <a href="https://countingdownto.com/?c=3593880">3AM GMT, 11 May 2021</a>. Mew is coming to your Pokedex!</Heading>
+        <Heading as="h1" size="sm" mb="24px" color="primary">Farming Start: <a href="https://bscscan.com/block/countdown/7333333">Block 7333333</a>. Mew wants to level up with the help of Pokemon Trainers!</Heading>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Titan Finance')}
+          {TranslateString(576, 'Mew Finance')}
         </Heading>
-        <Text>{TranslateString(578, 'Binance Smart Chain Yield Farm-dattebayo!')}</Text>
+        <Text>{TranslateString(578, 'Cutest Yield Farm on BSC')}</Text>
       </Hero>
       <div>
         <Cards>
