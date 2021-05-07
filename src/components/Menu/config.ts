@@ -51,15 +51,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: '/soon',
+        href: 'https://github.com/mewfinance',
       },
       {
         label: 'Docs',
-        href: '/soon',
+        href: 'https://mewfinance.gitbook.io/mew-finance/',
       },
       {
         label: 'Blog',
-        href: '/soon'
+        href: 'https://mewfinance.medium.com/the-arrival-of-mew-2e6e5b3490c6'
       },
     ],
   },
