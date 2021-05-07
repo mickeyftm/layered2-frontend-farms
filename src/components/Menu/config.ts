@@ -21,7 +21,7 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Ninjutsu',
+    label: 'Ninjutsu (v2)',
     icon: 'FarmIcon',
     href: '/ninjutsu',
   },
