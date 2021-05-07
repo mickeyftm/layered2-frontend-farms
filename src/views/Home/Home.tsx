@@ -62,6 +62,7 @@ const Home: React.FC = () => {
       <Hero>
         <Text>Fair Launch: <a href="https://countingdownto.com/?c=3593880">3AM GMT, 11 May 2021</a>. Mew is coming to your Pokedex!</Text>
         <Text>Farming Start: <a href="https://bscscan.com/block/countdown/7333333">Block 7333333</a>. Mew wants to level up with the help of Pokemon Trainers!</Text>
+        <br />
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'Mew Finance')}
         </Heading>
