@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract NarutoToken",
-        "name": "_naruto",
+        "internalType": "contract MewToken",
+        "name": "_mew",
         "type": "address"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_narutoPerBlock",
+        "name": "_mewPerBlock",
         "type": "uint256"
       },
       {
@@ -268,10 +268,10 @@
   },
   {
     "inputs": [],
-    "name": "naruto",
+    "name": "mew",
     "outputs": [
       {
-        "internalType": "contract NarutoToken",
+        "internalType": "contract MewToken",
         "name": "",
         "type": "address"
       }
@@ -281,7 +281,7 @@
   },
   {
     "inputs": [],
-    "name": "narutoPerBlock",
+    "name": "mewPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -318,7 +318,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingNaruto",
+    "name": "pendingMew",
     "outputs": [
       {
         "internalType": "uint256",
@@ -356,7 +356,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accNarutoPerShare",
+        "name": "accMewPerShare",
         "type": "uint256"
       },
       {
@@ -472,7 +472,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_narutoPerBlock",
+        "name": "_mewPerBlock",
         "type": "uint256"
       }
     ],
