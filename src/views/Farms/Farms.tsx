@@ -112,7 +112,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </Route>
         </FlexLayout>
       </div>
-      <Image src="https://kirbydefi.com/images/background.jpg" width={1374} height={773} />
+      <Image src="https://kirbydefi.com/images/background.jpg" width={1374} height={773} responsive />
     </Page >
   )
 }
