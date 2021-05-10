@@ -21,14 +21,14 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'FireRed (v2)',
+    label: 'Liquidity Pool',
     icon: 'FarmIcon',
-    href: '/firered',
+    href: '/pools',
   },
   {
-    label: 'LeafGreen',
+    label: 'Single Staking',
     icon: 'PoolIcon',
-    href: '/leafgreen',
+    href: '/stakes',
   },
   // {
   //   label: 'Pools',
@@ -51,15 +51,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://github.com/mewfinance',
+        href: 'https://kirbydefi.com/soon',
       },
       {
         label: 'Docs',
-        href: 'https://mewfinance.gitbook.io/mew-finance/',
+        href: 'https://kirbydefi.com/soon',
       },
       {
         label: 'Blog',
-        href: 'https://mewfinance.medium.com/the-arrival-of-mew-2e6e5b3490c6'
+        href: 'https://kirbydefi.com/soon'
       },
     ],
   },
