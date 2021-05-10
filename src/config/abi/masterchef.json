@@ -2,24 +2,9 @@
   {
     "inputs": [
       {
-        "internalType": "contract MewToken",
-        "name": "_mew",
+        "internalType": "contract KirbyToken",
+        "name": "_kirby",
         "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "_devaddr",
-        "type": "address"
-      },
-      {
-        "internalType": "address",
-        "name": "_feeAddress",
-        "type": "address"
-      },
-      {
-        "internalType": "uint256",
-        "name": "_mewPerBlock",
-        "type": "uint256"
       },
       {
         "internalType": "uint256",
@@ -86,6 +71,31 @@
       {
         "indexed": true,
         "internalType": "address",
+        "name": "caller",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "previousAmount",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "internalType": "uint256",
+        "name": "newAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "EmissionRateUpdated",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "internalType": "address",
         "name": "previousOwner",
         "type": "address"
       },
@@ -127,6 +137,58 @@
   {
     "inputs": [],
     "name": "BONUS_MULTIPLIER",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "EMISSION_REDUCTION_PERIOD_BLOCKS",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "EMISSION_REDUCTION_RATE_PER_PERIOD",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "INITIAL_EMISSION_RATE",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "MINIMUM_EMISSION_RATE",
     "outputs": [
       {
         "internalType": "uint256",
@@ -184,21 +246,8 @@
     "type": "function"
   },
   {
-    "inputs": [
-      {
-        "internalType": "address",
-        "name": "_devaddr",
-        "type": "address"
-      }
-    ],
-    "name": "dev",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
     "inputs": [],
-    "name": "devaddr",
+    "name": "devAddress",
     "outputs": [
       {
         "internalType": "address",
@@ -256,22 +305,15 @@
         "type": "uint256"
       }
     ],
-    "stateMutability": "view",
+    "stateMutability": "pure",
     "type": "function"
   },
   {
     "inputs": [],
-    "name": "massUpdatePools",
-    "outputs": [],
-    "stateMutability": "nonpayable",
-    "type": "function"
-  },
-  {
-    "inputs": [],
-    "name": "mew",
+    "name": "kirby",
     "outputs": [
       {
-        "internalType": "contract MewToken",
+        "internalType": "contract KirbyToken",
         "name": "",
         "type": "address"
       }
@@ -281,7 +323,7 @@
   },
   {
     "inputs": [],
-    "name": "mewPerBlock",
+    "name": "kirbyPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -290,6 +332,26 @@
       }
     ],
     "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "lastReductionPeriodIndex",
+    "outputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [],
+    "name": "massUpdatePools",
+    "outputs": [],
+    "stateMutability": "nonpayable",
     "type": "function"
   },
   {
@@ -318,7 +380,7 @@
         "type": "address"
       }
     ],
-    "name": "pendingMew",
+    "name": "pendingKirby",
     "outputs": [
       {
         "internalType": "uint256",
@@ -356,7 +418,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "accMewPerShare",
+        "name": "accKirbyPerShare",
         "type": "uint256"
       },
       {
@@ -420,6 +482,19 @@
     "inputs": [
       {
         "internalType": "address",
+        "name": "_devAddress",
+        "type": "address"
+      }
+    ],
+    "name": "setDevAddress",
+    "outputs": [],
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "internalType": "address",
         "name": "_feeAddress",
         "type": "address"
       }
@@ -469,13 +544,7 @@
     "type": "function"
   },
   {
-    "inputs": [
-      {
-        "internalType": "uint256",
-        "name": "_mewPerBlock",
-        "type": "uint256"
-      }
-    ],
+    "inputs": [],
     "name": "updateEmissionRate",
     "outputs": [],
     "stateMutability": "nonpayable",
