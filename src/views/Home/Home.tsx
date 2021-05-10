@@ -75,7 +75,6 @@ const Home: React.FC = () => {
           <TotalValueLockedCard />
         </Cards>
       </div>
-      <Image src="https://kirbydefi.com/images/background.jpg" width={1374} height={773} responsive />
     </Page >
   )
 }
