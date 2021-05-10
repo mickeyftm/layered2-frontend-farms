@@ -55,14 +55,19 @@ const config: MenuEntry[] = [
       },
       {
         label: 'Docs',
-        href: 'https://kirbydefi.com/soon',
+        href: 'https://kirbydefi.gitbook.io/kirby-finance/',
       },
       {
         label: 'Blog',
-        href: 'https://kirbydefi.com/soon'
+        href: 'https://kirbydefi.medium.com/'
       },
     ],
   },
+  {
+    label: 'Auto Emission Reduction Mechanism',
+    icon: 'TicketIcon',
+    href: 'https://kirbydefi.gitbook.io/kirby-finance/tokenomics/emission-mechanism/automatic-emission-reduction-mechanism'
+  }
 ]
 
 export default config
