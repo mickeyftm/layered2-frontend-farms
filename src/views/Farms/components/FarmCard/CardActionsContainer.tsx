@@ -58,7 +58,7 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
     return isApproved ? (
       <StakeAction stakedBalance={stakedBalance} tokenBalance={tokenBalance} tokenName={lpName} pid={pid} depositFeeBP={depositFeeBP} />
     ) : (
-      <Button mt="8px" fullWidth disabled={requestedApproval} onClick={handleApprove}>
+      <Button mt="8px" fullWidth disabled onClick={handleApprove}>
         {TranslateString(999, 'Approve Contract')}
       </Button>
     )
@@ -94,3 +94,11 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
 export default CardActions
 
 //       {!account ? <UnlockButton mt="8px" fullWidth /> : renderApprovalOrStakeButton()}
+
+/*
+
+      <Button mt="8px" fullWidth disabled={requestedApproval} onClick={handleApprove}>
+        {TranslateString(999, 'Approve Contract')}
+      </Button>
+
+*/

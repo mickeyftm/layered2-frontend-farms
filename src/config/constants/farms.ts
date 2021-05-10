@@ -8,7 +8,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'KIR-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
+      56: '0x19e7cbECDD23A16DfA5573dF54d98F7CaAE03019',
     },
     tokenSymbol: 'KIR',
     tokenAddresses: {
@@ -153,7 +153,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'KIR',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // EGG-BUSD LP
+      56: '0x19e7cbECDD23A16DfA5573dF54d98F7CaAE03019', // EGG-BUSD LP
     },
     tokenSymbol: 'KIR',
     tokenAddresses: {
