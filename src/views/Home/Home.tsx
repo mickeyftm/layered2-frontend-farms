@@ -60,13 +60,12 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h4" size="md" mb="24px" color="secondary">Fair Launch at 12PM GMT, 11 May 2021<a href="https://countingdownto.com/?c=3593880">View Countdown</a></Heading>
-        <Heading as="h4" size="md" mb="24px" color="secondary">Farming Start at Block 7397000<a href="https://bscscan.com/block/countdown/7333333">View Countdown</a></Heading>
-        <br />
         <Heading as="h1" size="xl" mb="24px" color="secondary">
           {TranslateString(576, 'Mew Finance')}
         </Heading>
-        <Text>{TranslateString(578, 'Cutest Yield Farm on BSC')}</Text>
+        <Heading as="h4" size="sm" mb="24px" color="secondary">Fair Launch at 12PM GMT, 11 May 2021<a href="https://countingdownto.com/?c=3593880" style={{ textDecoration: 'underline', paddingLeft: '5px' }}>(View Countdown)</a></Heading>
+        <Heading as="h4" size="sm" mb="24px" color="secondary">Farming Start at Block 7397000<a href="https://bscscan.com/block/countdown/7333333" style={{ textDecoration: 'underline', paddingLeft: '5px' }}>(View Countdown)</a></Heading>
+        <Text>{TranslateString(578, 'Chubbiest Yield Farm on BSC')}</Text>
       </Hero>
       <div>
         <Cards>
@@ -76,7 +75,7 @@ const Home: React.FC = () => {
           <TotalValueLockedCard />
         </Cards>
       </div>
-    </Page>
+    </Page >
   )
 }
 
