@@ -53,7 +53,16 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
   return (
     <Wrapper>
       <Text>
-        Mew will be updating this after the Fair Launch!
+        <Flex justifyContent="space-between">
+          <Text>{TranslateString(316, 'Stake')}:</Text>
+          {lpLabel}
+        </Flex>
+        {!removed && (
+          <Flex justifyContent="space-between">
+            <Text>{TranslateString(23, 'Total Liquidity')}:</Text>
+            <Text>{totalValueFormated}</Text>
+          </Flex>
+        )}
       </Text>
     </Wrapper>
   )

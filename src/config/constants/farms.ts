@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'MEW-BUSD LP',
+    lpSymbol: 'KIR-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019',
     },
-    tokenSymbol: 'MEW',
+    tokenSymbol: 'KIR',
     tokenAddresses: {
       97: '',
-      56: '0x5A4755E2b4DA70a5Bb740e0E5C497393730f10bE',
+      56: '0x011E5b3a8dAA78CCc4ec8F6e97aa7aDb5d00c71d',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,15 +21,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'MEW-BNB LP',
+    lpSymbol: 'KIR-BNB LP',
     lpAddresses: {
       97: '',
       56: '0xd1b59d11316e87c3a0a069e80f590ba35cd8d8d3',
     },
-    tokenSymbol: 'MEW',
+    tokenSymbol: 'KIR',
     tokenAddresses: {
       97: '',
-      56: '0x5A4755E2b4DA70a5Bb740e0E5C497393730f10bE',
+      56: '0x011E5b3a8dAA78CCc4ec8F6e97aa7aDb5d00c71d',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -150,15 +150,15 @@ const farms: FarmConfig[] = [
     pid: 9,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'MEW',
+    lpSymbol: 'KIR',
     lpAddresses: {
       97: '',
       56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // EGG-BUSD LP
     },
-    tokenSymbol: 'MEW',
+    tokenSymbol: 'KIR',
     tokenAddresses: {
       97: '',
-      56: '0x5A4755E2b4DA70a5Bb740e0E5C497393730f10bE',
+      56: '0x011E5b3a8dAA78CCc4ec8F6e97aa7aDb5d00c71d',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
