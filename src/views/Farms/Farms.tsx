@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import BigNumber from 'bignumber.js'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { provider } from 'web3-core'
-import { Image, Heading } from '@pancakeswap-libs/uikit'
+import { Image, Heading, Text } from '@pancakeswap-libs/uikit'
 import { BLOCKS_PER_YEAR, CAKE_PER_BLOCK, CAKE_POOL_PID } from 'config'
 import FlexLayout from 'components/layout/Flex'
 import Page from 'components/layout/Page'
@@ -100,7 +100,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
             TranslateString(320, 'Stake LP tokens to earn AOT')
         }
       </Heading>
-      <Text>A 2 percent transfer tax would be incurred for all transactions with KIR, and it would be all be burned automatically!</Text>
+      <Text>A 2% transfer tax would be incurred for all transactions with KIR, and it would be all be burned automatically!</Text>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>
         <Divider />
