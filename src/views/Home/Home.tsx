@@ -61,11 +61,12 @@ const Home: React.FC = () => {
     <Page>
       <Hero>
         <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Mew Finance')}
+          {TranslateString(576, 'Kirby Finance')}
         </Heading>
         <Heading as="h4" size="sm" mb="24px" color="secondary">Fair Launch at 12PM GMT, 13 May 2021<a href="https://countingdownto.com/?c=3597574" style={{ textDecoration: 'underline', paddingLeft: '5px' }}>(View Countdown)</a></Heading>
         <Heading as="h4" size="sm" mb="24px" color="secondary">Farming Start at Block 7397000<a href="https://bscscan.com/block/countdown/7397000" style={{ textDecoration: 'underline', paddingLeft: '5px' }}>(View Countdown)</a></Heading>
         <Text>{TranslateString(578, 'Chubbiest Yield Farm on BSC')}</Text>
+        <Text style={{ paddingTop: '10px' }}>A 2% transfer tax would be incurred for all transactions with KIR, and it would be all be burned automatically!</Text>
       </Hero>
       <div>
         <Cards>
