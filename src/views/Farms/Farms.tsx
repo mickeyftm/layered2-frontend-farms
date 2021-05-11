@@ -100,7 +100,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
             TranslateString(320, 'Stake LP tokens to earn AOT')
         }
       </Heading>
-      <Text>A 2% transfer tax would be incurred for all transactions with KIR, and it would be all be burned automatically!</Text>
+      <Text style={{ textAlign: 'center' }}>A 2% transfer tax would be incurred for all transactions with KIR, and it would be all be burned automatically!</Text>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>
         <Divider />
