@@ -32,8 +32,8 @@ const ReferralLink = () => {
     return (
         <div>
             <Heading size="md">Your Referral Link</Heading>
-            <StyleInput type="text" scale="md" value={`https://www.deathnotefinance.com/?ref=${rot13(account)}`} readOnly />
-            <CopyToClipboard text={`https://www.deathnotefinance.com/?ref=${rot13(account)}`} onCopy={() => { handleClick() }}>
+            <StyleInput type="text" scale="md" value={`https://deathnotefinance.com/?ref=${rot13(account)}`} readOnly />
+            <CopyToClipboard text={`https://deathnotefinance.com/?ref=${rot13(account)}`} onCopy={() => { handleClick() }}>
                 <Button variant="primary" mt="8px">Copy</Button>
             </CopyToClipboard>
             <ToastContainer toasts={toasts} onRemove={handleRemove} />

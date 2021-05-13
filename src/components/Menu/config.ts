@@ -12,7 +12,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x011E5b3a8dAA78CCc4ec8F6e97aa7aDb5d00c71d',
+        href: 'https://exchange.pancakeswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
@@ -56,22 +56,22 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Github',
-        href: 'https://kirbydefi.com/soon',
+        href: '/soon',
       },
       {
         label: 'Docs',
-        href: 'https://kirbydefi.gitbook.io/kirby-finance/',
+        href: '/soon',
       },
       {
         label: 'Blog',
-        href: 'https://kirbydefi.medium.com/'
+        href: '/soon'
       },
     ],
   },
   {
     label: 'Auto Emission Reduction Mechanism',
     icon: 'TicketIcon',
-    href: 'https://kirbydefi.gitbook.io/kirby-finance/tokenomics/emission-mechanism/automatic-emission-reduction-mechanism'
+    href: '/soon'
   }
 ]
 
