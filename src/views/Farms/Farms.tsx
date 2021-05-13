@@ -95,12 +95,12 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn AOT')
+            TranslateString(10002, 'Stake tokens to earn DEATH')
             :
-            TranslateString(320, 'Stake LP tokens to earn AOT')
+            TranslateString(320, 'Stake LP tokens to earn DEATH')
         }
       </Heading>
-      <Text style={{ textAlign: 'center' }}>A 2% transfer tax would be incurred for all transactions with KIR, and it would be all be burned automatically!</Text>
+      <Text style={{ textAlign: 'center' }}>A 2% transfer tax would be burned for all transactions with DEATH</Text>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>
         <Divider />

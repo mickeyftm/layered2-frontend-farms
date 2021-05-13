@@ -21,14 +21,19 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Liquidity Pool',
+    label: 'Light Yagami',
     icon: 'FarmIcon',
-    href: '/pools',
+    href: '/yagami',
   },
   {
-    label: 'Single Staking',
+    label: 'Ryuk',
     icon: 'PoolIcon',
-    href: '/stakes',
+    href: '/ryuk',
+  },
+  {
+    label: 'Referral',
+    icon: 'PoolIcon',
+    href: '/referral',
   },
   // {
   //   label: 'Pools',
