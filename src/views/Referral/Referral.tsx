@@ -12,6 +12,7 @@ const Con = styled.div`
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 40px;
 `
 
 const StyledCard = styled(Card)`
@@ -57,5 +58,5 @@ const Referral: React.FC = () => {
         </Con>
     )
 }
-// slava ukraini!
+
 export default Referral
