@@ -31,8 +31,8 @@ const config: MenuEntry[] = [
     href: '/ryuk',
   },
   {
-    label: 'Referral',
-    icon: 'PoolIcon',
+    label: 'Refer a Friend',
+    icon: 'GroupsIcon',
     href: '/referral',
   },
   // {
