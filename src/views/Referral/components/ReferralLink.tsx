@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Input, Heading, Button, ToastContainer } from 'uikit'
+import { Input, Heading, Button, ToastContainer } from '@pancakeswap-libs/uikit'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import styled from 'styled-components'
 import { CopyToClipboard } from 'react-copy-to-clipboard';

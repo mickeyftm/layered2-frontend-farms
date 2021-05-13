@@ -1,5 +1,5 @@
 import React from 'react'
-import { Heading, Text } from 'uikit'
+import { Heading, Text } from '@pancakeswap-libs/uikit'
 import styled from 'styled-components'
 import useTotalReferralCount from 'hooks/useTotalReferralCount'
 

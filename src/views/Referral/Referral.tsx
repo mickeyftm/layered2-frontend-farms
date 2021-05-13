@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, Card, CardHeader, CardBody } from 'uikit'
+import { Heading, Text, Card, CardHeader, CardBody } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import UnlockButton from 'components/UnlockButton'
