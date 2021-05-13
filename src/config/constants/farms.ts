@@ -8,7 +8,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'KIR-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbECDD23A16DfA5573dF54d98F7CaAE03019',
+      56: '0x716a495bf13f7242d4c70affcb520b1de2abdadb',
     },
     tokenSymbol: 'KIR',
     tokenAddresses: {
@@ -24,7 +24,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'KIR-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xd1b59d11316e87c3a0a069e80f590ba35cd8d8d3',
+      56: '0xe74d6281516629b7e5cc4397f517ac3184210ddb',
     },
     tokenSymbol: 'KIR',
     tokenAddresses: {
@@ -271,7 +271,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'CAKE',
     lpAddresses: {
       97: '',
-      56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
+      56: '0x804678fa97d91b974ec2af3c843270886528a9e6',
     },
     tokenSymbol: 'CAKE',
     tokenAddresses: {
