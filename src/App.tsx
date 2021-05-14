@@ -59,7 +59,7 @@ const App: React.FC = () => {
             <Route path="/soon">
               <Page>
                 <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-                  Coming soon, stay tuned!
+                  Ryuk is working on it, hold on...
                 </Heading>
               </Page>
             </Route>
