@@ -12,7 +12,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap',
+        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x6a7E5F05869da5e8eFe6Cbb5D3E5a9BeC7669CD8',
       },
       {
         label: 'Liquidity',
@@ -55,24 +55,20 @@ const config: MenuEntry[] = [
     icon: 'MoreIcon',
     items: [
       {
-        label: 'Github',
-        href: '/soon',
-      },
-      {
         label: 'Docs',
-        href: '/soon',
+        href: 'https://deathnotefinance.gitbook.io/deathnote-finance/',
       },
       {
         label: 'Blog',
-        href: '/soon'
+        href: 'https://deathnotefinance.medium.com/'
       },
     ],
   },
   {
     label: 'Automatic Emission Reduction',
     icon: 'InfoIcon',
-    href: '/soon'
-  }
+    href: 'https://deathnotefinance.gitbook.io/deathnote-finance/auto-emission-reduction-protocol'
+  },
 ]
 
 export default config
