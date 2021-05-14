@@ -69,6 +69,11 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     href: 'https://deathnotefinance.gitbook.io/deathnote-finance/auto-emission-reduction-protocol'
   },
+  {
+    label: 'Roadmap',
+    icon: 'RoadmapIcon',
+    href: 'https://deathnotefinance.gitbook.io/deathnote-finance/faq/roadmap'
+  },
 ]
 
 export default config
