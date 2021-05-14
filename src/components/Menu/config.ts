@@ -70,7 +70,7 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Auto Emission Reduction Mechanism',
-    icon: 'TicketIcon',
+    icon: 'InfoIcon',
     href: '/soon'
   }
 ]
