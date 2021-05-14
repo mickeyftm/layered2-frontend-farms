@@ -57,7 +57,7 @@ const Referral: React.FC = () => {
                     </CardBody>
                 </StyledCard>
             </Con>
-            <Image src="https://deathnotefinance.com/images/background.png" width={475} height={295} responsive />
+            <Image src="https://deathnotefinance.com/images/background.png" width={8406} height={4784} responsive />
         </Page>
     )
 }
