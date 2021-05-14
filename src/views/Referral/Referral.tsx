@@ -34,28 +34,31 @@ const Referral: React.FC = () => {
     const { account } = useWallet()
 
     return (
-        <Con>
-            <StyledCard>
-                <CardHeader>
-                    <Heading size="md">Share the referral link below to invite your friends and earn 2% of your friends earnings FOREVER!</Heading>
-                </CardHeader>
-                <CardBody>
-                    <Actions>
-                        {account ? (
-                            <div>
-                                <ReferralLink />
-                                <TotalReferralCount />
-                            </div>
-                        ) : (
-                            <div>
-                                <UnlockButton />
-                                <StyleHeading size="md">Unlock wallet to get your unique referral link</StyleHeading>
-                            </div>
-                        )}
-                    </Actions>
-                </CardBody>
-            </StyledCard>
-        </Con>
+        <Page>
+            <Con>
+                <StyledCard>
+                    <CardHeader>
+                        <Heading size="md">Share the referral link below to invite your friends and earn 2% of your friends earnings FOREVER!</Heading>
+                    </CardHeader>
+                    <CardBody>
+                        <Actions>
+                            {account ? (
+                                <div>
+                                    <ReferralLink />
+                                    <TotalReferralCount />
+                                </div>
+                            ) : (
+                                <div>
+                                    <UnlockButton />
+                                    <StyleHeading size="md">Unlock wallet to get your unique referral link</StyleHeading>
+                                </div>
+                            )}
+                        </Actions>
+                    </CardBody>
+                </StyledCard>
+            </Con>
+            <Image src="https://deathnotefinance.com/images/background.png" width={8406} height={4784} responsive />
+        </Page>
     )
 }
 

@@ -113,6 +113,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
           </Route>
         </FlexLayout>
       </div>
+      <Image src="https://deathnotefinance.com/images/background.png" width={8406} height={4784} responsive />
     </Page >
   )
 }
