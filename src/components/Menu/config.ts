@@ -12,7 +12,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x6a7E5F05869da5e8eFe6Cbb5D3E5a9BeC7669CD8',
+        href: 'https://exchange.pancakeswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
