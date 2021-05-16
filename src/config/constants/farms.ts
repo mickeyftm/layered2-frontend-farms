@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DEATH-BUSD LP',
     lpAddresses: {
       97: '',
-      56: '0x716a495bf13f7242d4c70affcb520b1de2abdadb',
+      56: '0xf195e29c5bcc955613f47707e782ac7bcb4ffb9c',
     },
     tokenSymbol: 'DEATH',
     tokenAddresses: {
       97: '',
-      56: '0x6a7E5F05869da5e8eFe6Cbb5D3E5a9BeC7669CD8',
+      56: '0xAAEB65fb1CF9A79ae7fB6df0610076230204f3B3',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DEATH-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0xe74d6281516629b7e5cc4397f517ac3184210ddb',
+      56: '0xd68ed2a528c2729789d55edb994c47bcd3435a28',
     },
     tokenSymbol: 'DEATH',
     tokenAddresses: {
       97: '',
-      56: '0x6a7E5F05869da5e8eFe6Cbb5D3E5a9BeC7669CD8',
+      56: '0xAAEB65fb1CF9A79ae7fB6df0610076230204f3B3',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -169,12 +169,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DEATH',
     lpAddresses: {
       97: '',
-      56: '0x716a495bf13f7242d4c70affcb520b1de2abdadb', // EGG-BUSD LP
+      56: '0xf195e29c5bcc955613f47707e782ac7bcb4ffb9c', // EGG-BUSD LP
     },
     tokenSymbol: 'DEATH',
     tokenAddresses: {
       97: '',
-      56: '0x6a7E5F05869da5e8eFe6Cbb5D3E5a9BeC7669CD8',
+      56: '0xAAEB65fb1CF9A79ae7fB6df0610076230204f3B3',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -186,7 +186,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // EGG-BUSD LP (BUSD-BUSD will ignore)
+      56: '0xf195e29c5bcc955613f47707e782ac7bcb4ffb9c', // EGG-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {
