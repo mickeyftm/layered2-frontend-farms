@@ -75,7 +75,6 @@ const Home: React.FC = () => {
           <TotalValueLockedCard />
         </Cards>
       </div>
-      <Image src="https://deathnotefinance.com/images/background.png" width={8406} height={4784} responsive />
     </Page >
   )
 }
