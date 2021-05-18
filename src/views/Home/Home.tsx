@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { Heading, Text, BaseLayout, Image } from '@pancakeswap-libs/uikit'
+import { Heading, Text, BaseLayout } from '@pancakeswap-libs/uikit'
 import useI18n from 'hooks/useI18n'
 import Page from 'components/layout/Page'
 import FarmStakingCard from './components/FarmStakingCard'
@@ -8,10 +8,14 @@ import LotteryCard from './components/LotteryCard'
 import CakeStats from './components/CakeStats'
 import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
+import Rules from './components/Rules'
+import ContractAddress from './components/ContractAddress'
+
 
 const Hero = styled.div`
   align-items: center;
-  background-image: url('/images/egg/3.png');
+  background-image: url('/images/egg/bg.png');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
   display: flex;
@@ -19,16 +23,25 @@ const Hero = styled.div`
   flex-direction: column;
   margin: auto;
   margin-bottom: 32px;
-  padding-top: 116px;
   text-align: center;
-  background-size: contain;
 
   ${({ theme }) => theme.mediaQueries.lg} {
-    background-image: url('/images/egg/3.png'), url('/images/egg/3b.png');
-    background-position: left center, right center;
+    background-image: url('/images/egg/bg.png');
+    background-position: center center, right center;
     height: 165px;
     padding-top: 0;
   }
+`
+
+const LogoHeading = styled.div`
+  align-items: center;
+  display: flex;
+  font-size: 40px;
+  font-weight: 600;
+  justify-content: space-between;
+  margin-bottom: 24px;
+  color: #66FCF1;
+  font-color: #66FCF1;
 `
 
 const Cards = styled(BaseLayout)`
@@ -60,12 +73,9 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <Heading as="h1" size="xl" mb="24px" color="secondary">
-          {TranslateString(576, 'Death Note Finance')}
-        </Heading>
-        <Heading as="h4" size="sm" mb="24px" color="secondary">Farming Start at Block<a href="https://bscscan.com/block/countdown/7493000" style={{ textDecoration: 'underline', paddingLeft: '5px' }}>7493000</a></Heading>
-        <Text>{TranslateString(578, 'Darkest Yield Farm on BSC')}</Text>
-        <Text style={{ paddingTop: '10px' }}>A 2% transfer tax would be burned for all transactions with DEATH</Text>
+        <LogoHeading >Eagle Swap</LogoHeading>
+        <Text color="white" font-size="16px" font-weight="400" line-height="1.5">Lets Soar. Yield Farm with Anti Whale, Emission Reduction and Referral</Text>
+        <Text color="white" font-size="16px" font-weight="400" line-height="1.5">Farming will start on<a href="https://bscscan.com/block/countdown/7446000">Block 7446000</a></Text>
       </Hero>
       <div>
         <Cards>
@@ -73,12 +83,14 @@ const Home: React.FC = () => {
           <TwitterCard />
           <CakeStats />
           <TotalValueLockedCard />
+          <Rules />
+          <ContractAddress />
         </Cards>
       </div>
-    </Page >
+    </Page>
   )
 }
 
 export default Home
 
-// ....
+// .

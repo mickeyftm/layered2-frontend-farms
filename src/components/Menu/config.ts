@@ -21,19 +21,34 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Light Yagami',
+    label: 'Farms (V2 LP)',
     icon: 'FarmIcon',
-    href: '/yagami',
+    href: '/farms',
   },
   {
-    label: 'Ryuk',
+    label: 'Pools',
     icon: 'PoolIcon',
-    href: '/ryuk',
+    href: '/pools',
   },
   {
-    label: 'Refer a Friend',
+    label: 'Referral',
     icon: 'GroupsIcon',
     href: '/referral',
+  },
+  {
+    label: 'Automatic Emission Reduction',
+    icon: 'InfoIcon',
+    href: '/'
+  },
+  {
+    label: 'Anti Whale Feature',
+    icon: 'InfoIcon',
+    href: '/'
+  },
+  {
+    label: 'Roadmap',
+    icon: 'RoadmapIcon',
+    href: '/'
   },
   // {
   //   label: 'Pools',
@@ -56,24 +71,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Docs',
-        href: 'https://deathnotefinance.gitbook.io/deathnote-finance/',
+        href: '/',
       },
       {
         label: 'Blog',
-        href: 'https://deathnotefinance.medium.com/'
+        href: '/'
       },
     ],
   },
-  {
-    label: 'Automatic Emission Reduction',
-    icon: 'InfoIcon',
-    href: 'https://deathnotefinance.gitbook.io/deathnote-finance/auto-emission-reduction-protocol'
-  },
-  {
-    label: 'Roadmap',
-    icon: 'RoadmapIcon',
-    href: 'https://deathnotefinance.gitbook.io/deathnote-finance/faq/roadmap'
-  },
+
 ]
 
 export default config

@@ -5,12 +5,12 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'DEATH-BUSD LP',
+    lpSymbol: 'EAGLE-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0xf195e29c5bcc955613f47707e782ac7bcb4ffb9c',
     },
-    tokenSymbol: 'DEATH',
+    tokenSymbol: 'EAGLE',
     tokenAddresses: {
       97: '',
       56: '0xAAEB65fb1CF9A79ae7fB6df0610076230204f3B3',
@@ -21,12 +21,12 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'DEATH-BNB LP',
+    lpSymbol: 'EAGLE-BNB LP',
     lpAddresses: {
       97: '',
       56: '0xd68ed2a528c2729789d55edb994c47bcd3435a28',
     },
-    tokenSymbol: 'DEATH',
+    tokenSymbol: 'EAGLE',
     tokenAddresses: {
       97: '',
       56: '0xAAEB65fb1CF9A79ae7fB6df0610076230204f3B3',
@@ -52,38 +52,6 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 3,
-    risk: 2,
-    lpSymbol: 'BTCB-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0x61EB789d75A95CAa3fF50ed7E47b96c132fEc082', // BTCB-BNB LP
-    },
-    tokenSymbol: 'BTCB',
-    tokenAddresses: {
-      97: '',
-      56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },
-  {
-    pid: 4,
-    risk: 2,
-    lpSymbol: 'ETH-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0x74E4716E431f45807DCF19f284c7aA99F18a4fbc',
-    },
-    tokenSymbol: 'ETH',
-    tokenAddresses: {
-      97: '',
-      56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
-    },
-    quoteTokenSymbol: QuoteToken.BNB,
-    quoteTokenAdresses: contracts.wbnb,
-  },
-  {
-    pid: 5,
     risk: 1,
     lpSymbol: 'USDT-BUSD LP',
     lpAddresses: {
@@ -99,7 +67,23 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 6,
+    pid: 4,
+    risk: 2,
+    lpSymbol: 'BTCB-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x61EB789d75A95CAa3fF50ed7E47b96c132fEc082', // BTCB-BNB LP
+    },
+    tokenSymbol: 'BTCB',
+    tokenAddresses: {
+      97: '',
+      56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 5,
     risk: 3,
     lpSymbol: 'CAKE-BNB LP',
     lpAddresses: {
@@ -115,7 +99,41 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
+    pid: 6,
+    risk: 3,
+    lpSymbol: 'PANTHER-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
+    },
+    tokenSymbol: 'CAKE',
+    tokenAddresses: {
+      97: '',
+      56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
     pid: 7,
+    risk: 2,
+    lpSymbol: 'ETH-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0x74E4716E431f45807DCF19f284c7aA99F18a4fbc',
+    },
+    tokenSymbol: 'ETH',
+    tokenAddresses: {
+      97: '',
+      56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+ 
+  
+  {
+    pid: 8,
     risk: 1,
     lpSymbol: 'DAI-BUSD LP',
     lpAddresses: {
@@ -131,7 +149,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 8,
+    pid: 9,
     risk: 1,
     lpSymbol: 'USDC-BUSD LP',
     lpAddresses: {
@@ -147,7 +165,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 9,
+    pid: 10,
     risk: 3,
     lpSymbol: 'DOT-BNB LP',
     lpAddresses: {
@@ -163,15 +181,31 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.wbnb,
   },
   {
-    pid: 10,
+    pid: 11,
+    risk: 3,
+    lpSymbol: 'ADA-BNB LP',
+    lpAddresses: {
+      97: '',
+      56: '0xDd5bAd8f8b360d76d12FdA230F8BAF42fe0022CF',
+    },
+    tokenSymbol: 'ADA',
+    tokenAddresses: {
+      97: '',
+      56: '0x7083609fce4d1d8dc0c979aab8c869ea2c873402',
+    },
+    quoteTokenSymbol: QuoteToken.BNB,
+    quoteTokenAdresses: contracts.wbnb,
+  },
+  {
+    pid: 12,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'DEATH',
+    lpSymbol: 'EAGLE',
     lpAddresses: {
       97: '',
       56: '0xf195e29c5bcc955613f47707e782ac7bcb4ffb9c', // EGG-BUSD LP
     },
-    tokenSymbol: 'DEATH',
+    tokenSymbol: 'EAGLE',
     tokenAddresses: {
       97: '',
       56: '0xAAEB65fb1CF9A79ae7fB6df0610076230204f3B3',
@@ -180,7 +214,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 11,
+    pid: 13,
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'BUSD',
@@ -197,7 +231,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 12,
+    pid: 14,
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'WBNB',
@@ -209,40 +243,6 @@ const farms: FarmConfig[] = [
     tokenAddresses: {
       97: '',
       56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    pid: 13,
-    risk: 2,
-    isTokenOnly: true,
-    lpSymbol: 'BTCB',
-    lpAddresses: {
-      97: '',
-      56: '0xF45cd219aEF8618A92BAa7aD848364a158a24F33', // BTCB-BUSD LP
-    },
-    tokenSymbol: 'BTCB',
-    tokenAddresses: {
-      97: '',
-      56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    pid: 14,
-    risk: 2,
-    isTokenOnly: true,
-    lpSymbol: 'ETH',
-    lpAddresses: {
-      97: '',
-      56: '0x7213a321f1855cf1779f42c0cd85d3d95291d34c', // ETH-BUSD LP
-    },
-    tokenSymbol: 'ETH',
-    tokenAddresses: {
-      97: '',
-      56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -283,6 +283,59 @@ const farms: FarmConfig[] = [
   },
   {
     pid: 17,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'PANTHER',
+    lpAddresses: {
+      97: '',
+      56: '0x804678fa97d91b974ec2af3c843270886528a9e6',
+    },
+    tokenSymbol: 'PANTHER',
+    tokenAddresses: {
+      97: '',
+      56: '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 18,
+    risk: 2,
+    isTokenOnly: true,
+    lpSymbol: 'BTCB',
+    lpAddresses: {
+      97: '',
+      56: '0xF45cd219aEF8618A92BAa7aD848364a158a24F33', // BTCB-BUSD LP
+    },
+    tokenSymbol: 'BTCB',
+    tokenAddresses: {
+      97: '',
+      56: '0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 19,
+    risk: 2,
+    isTokenOnly: true,
+    lpSymbol: 'ETH',
+    lpAddresses: {
+      97: '',
+      56: '0x7213a321f1855cf1779f42c0cd85d3d95291d34c', // ETH-BUSD LP
+    },
+    tokenSymbol: 'ETH',
+    tokenAddresses: {
+      97: '',
+      56: '0x2170ed0880ac9a755fd29b2688956bd959f933f8',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+
+ 
+  {
+    pid: 20,
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'DAI',
@@ -299,7 +352,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 18,
+    pid: 21,
     risk: 1,
     isTokenOnly: true,
     lpSymbol: 'USDC',
@@ -316,7 +369,7 @@ const farms: FarmConfig[] = [
     quoteTokenAdresses: contracts.busd,
   },
   {
-    pid: 19,
+    pid: 22,
     risk: 3,
     isTokenOnly: true,
     lpSymbol: 'DOT',
@@ -325,6 +378,23 @@ const farms: FarmConfig[] = [
       56: '0x9fdaab9312084298d210b8789629d3054230e998', // DOT-BUSD LP
     },
     tokenSymbol: 'DOT',
+    tokenAddresses: {
+      97: '',
+      56: '0x7083609fce4d1d8dc0c979aab8c869ea2c873402',
+    },
+    quoteTokenSymbol: QuoteToken.BUSD,
+    quoteTokenAdresses: contracts.busd,
+  },
+  {
+    pid: 23,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'ADA',
+    lpAddresses: {
+      97: '',
+      56: '0x9fdaab9312084298d210b8789629d3054230e998', // DOT-BUSD LP
+    },
+    tokenSymbol: 'ADA',
     tokenAddresses: {
       97: '',
       56: '0x7083609fce4d1d8dc0c979aab8c869ea2c873402',

@@ -47,10 +47,10 @@ const App: React.FC = () => {
             <Route path="/" exact>
               <Home />
             </Route>
-            <Route path="/yagami">
+            <Route path="/farms">
               <Farms />
             </Route>
-            <Route path="/ryuk">
+            <Route path="/pools">
               <Farms tokenMode />
             </Route>
             <Route path="/referral">
@@ -59,7 +59,7 @@ const App: React.FC = () => {
             <Route path="/soon">
               <Page>
                 <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
-                  Ryuk is working on it, hold on...
+                  Coming Soon...
                 </Heading>
               </Page>
             </Route>
