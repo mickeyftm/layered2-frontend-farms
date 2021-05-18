@@ -30,8 +30,7 @@ const Link = styled.div`
   display: flex;
   font-size: 18px;
   justify-content: space-between;
-  margin-bottom: 8px;
-  bottom: 14px;
+  margin-top: 30px;
 `
 
 // toChange
@@ -47,7 +46,6 @@ const Rules = () => {
         </Heading>
           <Row> 21st May 3AM GMT</Row>
           <Link>Stealth Launch <a href="https://bscscan.com/block/countdown/7446000">Countdown</a></Link>
-
       </CardBody>
     </StyledRules>
   )

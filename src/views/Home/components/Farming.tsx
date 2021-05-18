@@ -31,7 +31,7 @@ const Link = styled.div`
   font-size: 18px;
   justify-content: space-between;
   margin-bottom: 8px;
-  bottom: 14px;
+  margin-top: 30px;
 `
 
 // toChange
