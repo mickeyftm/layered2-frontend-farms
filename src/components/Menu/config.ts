@@ -21,7 +21,7 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Farms (V2 LP)',
+    label: 'Farms (V2)',
     icon: 'FarmIcon',
     href: '/farms',
   },

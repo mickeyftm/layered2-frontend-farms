@@ -87,7 +87,6 @@ const Home: React.FC = () => {
           <CakeStats />
           <TotalValueLockedCard />
           <Rules />
-          <ContractAddress />
         </Cards>
       </div>
     </Page>

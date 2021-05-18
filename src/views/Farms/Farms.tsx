@@ -100,7 +100,7 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
             TranslateString(320, 'Stake LP tokens to earn EAGLE')
         }
       </Heading>
-      <Text style={{ textAlign: 'center', paddingBottom: '10px' }}>A 2% transfer tax would be burned for all transactions with EAGLE</Text>
+      <Text style={{ textAlign: 'center', paddingBottom: '10px' }}>A 1.5% transfer tax would be burned for all transactions with EAGLE</Text>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>
         <Divider />

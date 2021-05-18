@@ -8,10 +8,10 @@ import { getCakeAddress } from 'utils/addressHelpers'
 import CardValue from './CardValue'
 import { useFarms } from '../../../state/hooks'
 
-const StyledRules = styled(Card)`
+const StyledFarming = styled(Card)`
   margin-left: auto;
   margin-right: auto;
-  background-image: url('/images/egg/info.png');
+  background-color: #f4c609;
   background-repeat: no-repeat;
   background-position: right;
   min-height: 180px;
@@ -24,14 +24,17 @@ const Row = styled.div`
   font-size: 28px;
   justify-content: space-between;
   margin-bottom: 8px;
+  color: #000000;
+  font-weight: 600;
 `
-const Link = styled.div`
+const Press = styled.div`
   align-items: center;
   display: flex;
   font-size: 18px;
   justify-content: space-between;
   margin-bottom: 8px;
   bottom: 14px;
+  color: #FFFFFF;
 `
 
 // toChange
@@ -40,15 +43,15 @@ const Farming = () => {
   const TranslateString = useI18n()
 
   return (
-    <StyledRules>
+    <StyledFarming>
       <CardBody>
         <Heading color="white" size="xl" mb="36px">
           Farming Launch
         </Heading>
-          <Row> 21st May 3PM GMT</Row>
-          <Link><a href="https://bscscan.com/block/countdown/7446000">Farming Start Countdown</a></Link>
+        <Row>21st May Friday 1PM UTC</Row>
+        <Press><a href="https://bscscan.com/block/countdown/7603000">Click for Countdown Here (Block 7603000)</a></Press>
       </CardBody>
-    </StyledRules>
+    </StyledFarming>
   )
 }
 
