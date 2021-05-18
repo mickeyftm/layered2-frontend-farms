@@ -31,12 +31,12 @@ const Link = styled.div`
   font-size: 18px;
   justify-content: space-between;
   margin-bottom: 8px;
-  margin-top: 30px;
+  bottom: 14px;
 `
 
 // toChange
 
-const Rules = () => {
+const Farming = () => {
   const TranslateString = useI18n()
 
   return (
@@ -46,10 +46,10 @@ const Rules = () => {
           Farming Launch
         </Heading>
           <Row> 21st May 3PM GMT</Row>
-          <Link>Farming Start<a href="https://bscscan.com/block/countdown/7446000">Countdown</a></Link>
+          <Link><a href="https://bscscan.com/block/countdown/7446000">Farming Start Countdown</a></Link>
       </CardBody>
     </StyledRules>
   )
 }
 
-export default Rules
+export default Farming

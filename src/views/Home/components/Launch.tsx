@@ -30,12 +30,13 @@ const Link = styled.div`
   display: flex;
   font-size: 18px;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-bottom: 8px;
+  bottom: 14px;
 `
 
 // toChange
 
-const Rules = () => {
+const Launch = () => {
   const TranslateString = useI18n()
 
   return (
@@ -51,4 +52,4 @@ const Rules = () => {
   )
 }
 
-export default Rules
+export default Launch
