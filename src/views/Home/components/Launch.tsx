@@ -14,7 +14,7 @@ const StyledRules = styled(Card)`
   background-image: url('/images/egg/info.png');
   background-repeat: no-repeat;
   background-position: right;
-  min-height: 376px;
+  min-height: 180px;
   background-size: cover;
 `
 
