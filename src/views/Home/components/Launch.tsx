@@ -46,7 +46,7 @@ const Rules = () => {
           Stealth Launch
         </Heading>
           <Row> 21st May 3AM GMT</Row>
-          <Link><a href="https://bscscan.com/block/countdown/7446000">Stealth Launch Countdown</a></Link>
+          <Link>Stealth Launch <a href="https://bscscan.com/block/countdown/7446000">Countdown</a></Link>
 
       </CardBody>
     </StyledRules>

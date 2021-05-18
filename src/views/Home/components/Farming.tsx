@@ -46,8 +46,7 @@ const Rules = () => {
           Farming Launch
         </Heading>
           <Row> 21st May 3PM GMT</Row>
-          <Link><a href="https://bscscan.com/block/countdown/7446000">Farming Start Countdown</a></Link>
-
+          <Link>Farming Start<a href="https://bscscan.com/block/countdown/7446000">Countdown</a></Link>
       </CardBody>
     </StyledRules>
   )
