@@ -38,18 +38,14 @@ const config: MenuEntry[] = [
   {
     label: 'Automatic Emission Reduction',
     icon: 'InfoIcon',
-    href: '/'
+    href: 'https://eagleswapdefi.gitbook.io/eagleswap/features/emission-reduction'
   },
   {
     label: 'Anti Whale Feature',
     icon: 'InfoIcon',
-    href: '/'
+    href: 'https://eagleswapdefi.gitbook.io/eagleswap/features/anti-whale'
   },
-  {
-    label: 'Roadmap',
-    icon: 'RoadmapIcon',
-    href: '/'
-  },
+
   // {
   //   label: 'Pools',
   //   icon: 'PoolIcon',
@@ -71,11 +67,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Docs',
-        href: '/',
+        href: 'https://eagleswapdefi.gitbook.io/eagleswap/',
       },
       {
         label: 'Blog',
-        href: '/'
+        href: 'https://eagleswap.medium.com/'
       },
     ],
   },

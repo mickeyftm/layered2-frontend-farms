@@ -1837,7 +1837,7 @@
 
 "@pancakeswap-libs/uikit@mrjunying98/eagle-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/mrjunying98/eagle-uikit/tar.gz/375b9b82142abc09836ece7ae24bb8151960b8d4"
+  resolved "https://codeload.github.com/mrjunying98/eagle-uikit/tar.gz/f9d04341ba3290605308a36efc7eec1f347070b3"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"
