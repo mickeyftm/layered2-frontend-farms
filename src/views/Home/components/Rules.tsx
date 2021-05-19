@@ -42,7 +42,7 @@ const Rules = () => {
           <Row><li> Emission Reduction Mechanism </li></Row>
           <Row><li> Buyback and Burn Mechanism </li></Row>
           <Row><li> 2% Transfer Tax for Price Stability</li></Row>
-          <Row><li> Anti Whale of 1.5% </li></Row>
+          <Row><li> Anti Whale of % </li></Row>
           <Row><li> Liquidity will be locked </li></Row>
           <Row><li> Removal of Migrator Code</li></Row>
           <Row><li> HIGH RISK. DYOR and Invest with Money you can lose</li></Row>
