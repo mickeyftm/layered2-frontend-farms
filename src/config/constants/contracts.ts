@@ -28,7 +28,7 @@ export default {
     97: '',
   },
   referral: {
-    56: '0x1395e1c9C81822dFCC5D740a11962428CF20F31E',
+    56: '0xCCdDe80A7CB930793c33eAf0B6592FAA680d183F',
     97: '',
   }
 }
