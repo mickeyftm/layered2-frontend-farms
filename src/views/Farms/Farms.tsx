@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux'
 import BigNumber from 'bignumber.js'
 import { useWallet } from '@binance-chain/bsc-use-wallet'
 import { provider } from 'web3-core'
-import { Image, Heading, Text } from '@pancakeswap-libs/uikit'
+import { Image, Heading } from '@pancakeswap-libs/uikit'
 import { BLOCKS_PER_YEAR, CAKE_PER_BLOCK, CAKE_POOL_PID } from 'config'
 import FlexLayout from 'components/layout/Flex'
 import Page from 'components/layout/Page'
@@ -95,12 +95,11 @@ const Farms: React.FC<FarmsProps> = (farmsProps) => {
       <Heading as="h1" size="lg" color="secondary" mb="50px" style={{ textAlign: 'center' }}>
         {
           tokenMode ?
-            TranslateString(10002, 'Stake tokens to earn EAGLE')
+            TranslateString(10002, 'LAYERED FARMING: Stake tokens to earn GRZ or GRZ to earn BEAR2')
             :
-            TranslateString(320, 'Stake LP tokens to earn EAGLE')
+            TranslateString(320, 'LAYERED FARMING: Stake LP tokens to earn GRZ or GRZ to earn BEAR2')
         }
       </Heading>
-      <Text style={{ textAlign: 'center', paddingBottom: '10px' }}>A 2% transfer tax would be burned for all transactions with EAGLE</Text>
       <FarmTabButtons stakedOnly={stakedOnly} setStakedOnly={setStakedOnly} />
       <div>
         <Divider />

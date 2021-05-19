@@ -26,7 +26,7 @@ const StyledLinkExternal = styled(LinkExternal)`
   color: ${({ theme }) => theme.colors.text};
   display: flex;
   align-items: center;
-
+        
   svg {
     padding-left: 4px;
     height: 18px;
@@ -56,7 +56,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
         <Text>{TranslateString(316, 'Stake')}:</Text>
         <StyledLinkExternal href={
           isTokenOnly ?
-            `https://exchange.pancakeswap.finance/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
+            `https://exchange.pancakeswap.com/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
             :
             `https://exchange.pancakeswap.finance/#/add/${liquidityUrlPathParts}`
         }>
@@ -79,30 +79,3 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
 }
 
 export default DetailsSection
-
-/*
-
-      <Flex justifyContent="space-between">
-        <Text>{TranslateString(316, 'Stake')}:</Text>
-        <StyledLinkExternal href={
-          isTokenOnly ?
-            `https://exchange.pancakeswap.finance/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
-            :
-            `https://exchange.pancakeswap.finance/#/add/${liquidityUrlPathParts}`
-        }>
-          {lpLabel}
-        </StyledLinkExternal>
-      </Flex>
-      {!removed && (
-        <Flex justifyContent="space-between">
-          <Text>{TranslateString(23, 'Total Liquidity')}:</Text>
-          <Text>{totalValueFormated}</Text>
-        </Flex>
-      )}
-      <Flex justifyContent="flex-start">
-        <Link external href={bscScanAddress} bold={false}>
-          {TranslateString(356, 'View on BscScan')}
-        </Link>
-      </Flex>
-
-      */

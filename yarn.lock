@@ -1835,9 +1835,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@mrjunying98/eagle-uikit":
+"@pancakeswap-libs/uikit@GrizzlySwapMaster/goose-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/mrjunying98/eagle-uikit/tar.gz/f9d04341ba3290605308a36efc7eec1f347070b3"
+  resolved "https://codeload.github.com/GrizzlySwapMaster/goose-uikit/tar.gz/b94854c26e0103d71260b9aa42776a2b6b1eb74f"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

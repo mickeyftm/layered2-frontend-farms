@@ -38,7 +38,7 @@ const Referral: React.FC = () => {
             <Con>
                 <StyledCard>
                     <CardHeader>
-                        <Heading size="md">Share the referral link below to invite your friends and earn 2% of your friends earnings FOREVER!</Heading>
+                        <Heading size="md">Share the referral link below to invite your friends and earn 3% of your friends earnings FOREVER!</Heading>
                     </CardHeader>
                     <CardBody>
                         <Actions>

@@ -10,8 +10,6 @@ import TotalValueLockedCard from './components/TotalValueLockedCard'
 import TwitterCard from './components/TwitterCard'
 import Rules from './components/Rules'
 import ContractAddress from './components/ContractAddress'
-import Farming from './components/Farming'
-import Launch from './components/Launch'
 
 
 const Hero = styled.div`
@@ -42,8 +40,8 @@ const LogoHeading = styled.div`
   font-weight: 600;
   justify-content: space-between;
   margin-bottom: 24px;
-  color: #f4c609;
-  font-color: #f4c609;
+  color: #66FCF1;
+  font-color: #66FCF1;
 `
 
 const Cards = styled(BaseLayout)`
@@ -75,17 +73,17 @@ const Home: React.FC = () => {
   return (
     <Page>
       <Hero>
-        <LogoHeading >Eagle Swap</LogoHeading>
-        <Text color="white" font-size="16px" font-weight="400" line-height="1.5">Lets Soar. Yield Farm with Anti Whale, Emission Reduction and Referral</Text>
+        <LogoHeading >GrizzlySwap LAYERED 2 FARMING</LogoHeading>
+        <Text color="white" font-size="16px" font-weight="400" line-height="1.5">Your Next Generation Yield Farm. Ready To Hunt and Dominate</Text>
+        <Text color="white" font-size="16px" font-weight="400" line-height="1.5">Farming will start on <a href="https://bscscan.com/block/countdown/7482700">Block 7482700</a></Text>
       </Hero>
       <div>
         <Cards>
           <FarmStakingCard />
           <TwitterCard />
-          <Launch />
-          <Farming />
           <CakeStats />
           <TotalValueLockedCard />
+          <Rules />
         </Cards>
       </div>
     </Page>

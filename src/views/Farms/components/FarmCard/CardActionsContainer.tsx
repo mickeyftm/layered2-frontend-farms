@@ -71,7 +71,7 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
       <Flex>
         <Text bold textTransform="uppercase" color="secondary" fontSize="12px" pr="3px">
           {/* TODO: Is there a way to get a dynamic value here from useFarmFromSymbol? */}
-          EAGLE
+          BEAR2
         </Text>
         <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
           {TranslateString(999, 'Earned')}
@@ -92,13 +92,3 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
 }
 
 export default CardActions
-
-//       {!account ? <UnlockButton mt="8px" fullWidth /> : renderApprovalOrStakeButton()}
-
-/*
-
-      <Button mt="8px" fullWidth disabled={requestedApproval} onClick={handleApprove}>
-        {TranslateString(999, 'Approve Contract')}
-      </Button>
-
-*/

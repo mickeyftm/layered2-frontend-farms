@@ -16,7 +16,6 @@ const StyledRules = styled(Card)`
   background-position: right;
   min-height: 376px;
   background-size: cover;
-  align-items: center;
 `
 
 const Row = styled.div`
@@ -35,17 +34,20 @@ const Rules = () => {
   return (
     <StyledRules>
       <CardBody>
-        <Heading color="white" size="xl" mb="36px">
-          Features and Information
+        <Heading color="white" size="xl" mb="24px">
+          Information and Rules
         </Heading>
         <ul>
-          <Row><li> Emission Reduction Mechanism </li></Row>
+          <Row><li> Audited By Techrate </li></Row>
+          <Row><li> Layered Farming. Stake GRZ or GRZX to Earn Layer 2 Tokens </li></Row>
           <Row><li> Buyback and Burn Mechanism </li></Row>
-          <Row><li> 2% Transfer Tax for Price Stability</li></Row>
-          <Row><li> Anti Whale of % </li></Row>
-          <Row><li> Liquidity will be locked </li></Row>
-          <Row><li> Removal of Migrator Code</li></Row>
-          <Row><li> HIGH RISK. DYOR and Invest with Money you can lose</li></Row>
+          <Row><li> Deflationary Mechanism with 2% Transfer Tax </li></Row>
+          <Row><li> Automatic Emission Reduction  </li></Row>
+          <Row><li> Anti-Whale Mechanism</li></Row>
+          <Row><li> Initital Liquidity Will Be Burned </li></Row>
+          <Row><li> 1/4 of the desposit fees used for buybacks </li></Row>
+          <Row><li> Migrator Code Removed </li></Row>
+          <Row><li> HIGH RISK. Understand the Risks! </li></Row>
         </ul>
       </CardBody>
     </StyledRules>

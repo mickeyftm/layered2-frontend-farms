@@ -12,7 +12,7 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xAAEB65fb1CF9A79ae7fB6df0610076230204f3B3',
+        href: 'https://exchange.pancakeswap.finance/#/swap',
       },
       {
         label: 'Liquidity',
@@ -21,12 +21,12 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Farms (V2)',
+    label: 'Layered 2 Farms (V2)',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Pools',
+    label: 'Layered 2 Pools',
     icon: 'PoolIcon',
     href: '/pools',
   },
@@ -36,14 +36,34 @@ const config: MenuEntry[] = [
     href: '/referral',
   },
   {
+    label: 'Layered Farming',
+    icon: 'IfoIcon',
+    items: [
+      {
+        label: 'Layer 1',
+        href: 'https://layer.grizzlyswap.com',
+      },
+      {
+        label: 'Layer 2',
+        href: 'https://layer2.grizzlyswap.com'
+      },
+    ],
+  },
+  {
+    label: 'Grizzly Home (GRZ)',
+    icon: 'InfoIcon',
+    href: 'https://grizzlyswap.com'
+  },
+  
+  {
     label: 'Automatic Emission Reduction',
     icon: 'InfoIcon',
-    href: 'https://eagleswapdefi.gitbook.io/eagleswap/features/emission-reduction'
+    href: '/'
   },
   {
     label: 'Anti Whale Feature',
     icon: 'InfoIcon',
-    href: 'https://eagleswapdefi.gitbook.io/eagleswap/features/anti-whale'
+    href: '/'
   },
 
   // {
@@ -67,11 +87,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Docs',
-        href: 'https://eagleswapdefi.gitbook.io/eagleswap/',
+        href: 'https://grizzlyswap.medium.com/',
       },
       {
         label: 'Blog',
-        href: 'https://eagleswap.medium.com/'
+        href: 'https://grizzlyswap.gitbook.io/grizzly-swap/'
       },
     ],
   },
