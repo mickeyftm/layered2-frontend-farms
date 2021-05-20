@@ -37,14 +37,14 @@ const config: MenuEntry[] = [
   },
   {
     label: 'Layered Farming',
-    icon: 'IfoIcon',
+    icon: 'LayerIcon',
     items: [
       {
-        label: 'Layer 1',
+        label: 'Layer 1 (GRZX)',
         href: 'https://layer.grizzlyswap.com',
       },
       {
-        label: 'Layer 2',
+        label: 'Layer 2 (BEAR2)',
         href: 'https://layer2.grizzlyswap.com'
       },
     ],
@@ -53,6 +53,16 @@ const config: MenuEntry[] = [
     label: 'Grizzly Home (GRZ)',
     icon: 'InfoIcon',
     href: 'https://grizzlyswap.com'
+  },
+  {
+    label: 'Partnership (Cross Farm)',
+    icon: 'GroupIcon',
+    items: [
+      {
+        label: 'EagelSwap',
+        href: 'https://www.eagleswapdefi.com/',
+      }
+    ],
   },
   
   {
@@ -64,6 +74,20 @@ const config: MenuEntry[] = [
     label: 'Anti Whale Feature',
     icon: 'InfoIcon',
     href: '/'
+  },
+  {
+    label: 'Listing',
+    icon: 'IfoIcon',
+    items: [
+      {
+        label: 'Dappradar',
+        href: 'https://dappradar.com/binance-smart-chain/defi/grizzly-swap',
+      },
+      {
+        label: 'VFAT',
+        href: 'https://vfat.tools/bsc/grizzly/',
+      }
+    ],
   },
 
   // {
