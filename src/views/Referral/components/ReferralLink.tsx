@@ -7,6 +7,8 @@ import rot13 from '../../../utils/encode'
 
 const StyleInput = styled(Input)`
     margin-top: 10px;
+    color: #000000;
+    font-color: #000000;
 `
 
 const ReferralLink = () => {
