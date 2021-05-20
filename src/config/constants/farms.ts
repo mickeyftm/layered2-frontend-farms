@@ -8,12 +8,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BEAR2-BUSD LP V2',
     lpAddresses: {
       97: '',
-      56: '0xb3632647c8fc760756f4c2a2c672b336f835aa79',
+      56: '0x33f4bfcbc4e4ab19ad13201b4e0379d9ba2ed32a',
     },
     tokenSymbol: 'BEAR2',
     tokenAddresses: {
       97: '',
-      56: '0xB04BbfB6207a1bacfF4Ff62C34d6891B8BB3d18b',
+      56: '0x35abA0573DC1DcBB73f6AE3e13FcD76ab440a2E9',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -24,12 +24,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BEAR2-BNB LP V2',
     lpAddresses: {
       97: '',
-      56: '0x78272d2c10ce553ab4de9b39156bb49ef45330c8',
+      56: '0xaa3e4b5bfbb52ad07d7fe7aae73189d2c100eac5',
     },
     tokenSymbol: 'BEAR2',
     tokenAddresses: {
       97: '',
-      56: '0xB04BbfB6207a1bacfF4Ff62C34d6891B8BB3d18b',
+      56: '0x35abA0573DC1DcBB73f6AE3e13FcD76ab440a2E9',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -251,12 +251,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'PANTHER-BNB LP V2',
     lpAddresses: {
       97: '',
-      56: '0x28415ff2C35b65B9E5c7de82126b4015ab9d031F',
+      56: '0xecc11a78490866e0073ebc4a4dcb6f75673c8685',
     },
     tokenSymbol: 'PANTHER',
     tokenAddresses: {
       97: '',
-      56: '0x3ee2200efb3400fabb9aacf31297cbdd1d435d47',
+      56: '0x1f546aD641B56b86fD9dCEAc473d1C7a357276B7',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -268,12 +268,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BEAR2',
     lpAddresses: {
       97: '',
-      56: '0xb3632647c8fc760756f4c2a2c672b336f835aa79', // EGG-BUSD LP
+      56: '0x33f4bfcbc4e4ab19ad13201b4e0379d9ba2ed32a', // EGG-BUSD LP
     },
     tokenSymbol: 'BEAR2',
     tokenAddresses: {
       97: '',
-      56: '0xB04BbfB6207a1bacfF4Ff62C34d6891B8BB3d18b',
+      56: '0x35abA0573DC1DcBB73f6AE3e13FcD76ab440a2E9',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -491,12 +491,12 @@ const farms: FarmConfig[] = [
     lpSymbol: 'PANTHER',
     lpAddresses: {
       97: '',
-      56: '0x1e249df2f58cbef7eac2b0ee35964ed8311d5623', // ADA-BNB LP
+      56: '0x937ced19daa8a057e7f4062e93ea4aedad730e1c', // ADA-BNB LP
     },
     tokenSymbol: 'PANTHER',
     tokenAddresses: {
       97: '',
-      56: '0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47',
+      56: '0x1f546aD641B56b86fD9dCEAc473d1C7a357276B7',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
