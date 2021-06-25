@@ -21,12 +21,12 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Layered 2 Farms (V2)',
+    label: 'Farms',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Layered 2 Pools',
+    label: 'Pools',
     icon: 'PoolIcon',
     href: '/pools',
   },
@@ -34,25 +34,6 @@ const config: MenuEntry[] = [
     label: 'Referral',
     icon: 'GroupsIcon',
     href: '/referral',
-  },
-  {
-    label: 'Layered Farming',
-    icon: 'LayerIcon',
-    items: [
-      {
-        label: 'Layer 1 (GRZX)',
-        href: 'https://layer.grizzlyswap.com',
-      },
-      {
-        label: 'Layer 2 (BEAR2)',
-        href: 'https://layer2.grizzlyswap.com'
-      },
-    ],
-  },
-  {
-    label: 'Grizzly Home (GRZ)',
-    icon: 'InfoIcon',
-    href: 'https://grizzlyswap.com'
   },
   {
     label: 'Partnership (Cross Farm)',
@@ -63,17 +44,6 @@ const config: MenuEntry[] = [
         href: 'https://www.eagleswapdefi.com/',
       }
     ],
-  },
-  
-  {
-    label: 'Automatic Emission Reduction',
-    icon: 'InfoIcon',
-    href: '/'
-  },
-  {
-    label: 'Anti Whale Feature',
-    icon: 'InfoIcon',
-    href: '/'
   },
   {
     label: 'Listing',
